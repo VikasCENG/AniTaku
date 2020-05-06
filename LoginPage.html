@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+<script src="loginspecs.js"> </script>
+<link href="http://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="loginstyle.css">
+</head>
+<body>
+<nav>
+<ul>
+<li><a href="HomePage.html">Home</a></li>
+<li><a href="infopage.html">Information</a></li>
+<li><a href="FeedbackFormPage.html">Feedback Form</a></li>
+<li><a href="About Us.html">About Us</a></li>
+<li><a class="active" href="LoginPage.html">Login</a></li>
+</li><a href="register.php">Register</a></li>
+</ul>
+</nav>
+<div class="loginbox">
+<img src="logo.png" class="avatar">
+<img src="newlogo.png" class="logo">
+<h1>Login Here</h1>
+<form action="SuccessfulLogin.html" name="login">
+<label for="username">Username</label>
+<input type="text" name="username" id="username" placeholder="Enter Username" required>
+<label class="error" for="username" id="username_error">This field is required.</label>
+<label class="error" for="username" id="username2_error">Must be letters and numbers.</label>
+<label class="error" for="username" id="username3_error">Must begin with a letter.</label>
+<label for="password">Password</label>
+<input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" required>
+<label class="error" for="password" id="password_error">This field is required.</label>
+<label class="error" for="password" id="password2_error">Must be 8 to 16 characters long.</label>
+<label class="error" for="password" id="password3_error">Must start with a letter.</label>
+<label class="error" for="password" id="password4_error">Must contain at least one ! or * special character.</label>
+<label class="error" for="password" id="password5_error">Need at least 1 digit</label>
+<button type="submit" class="button">Login</button>
+</form>
+
+</div>
+
+</body>
+</html>

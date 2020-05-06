@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Information Page</title>
+<link rel="stylesheet" type="text/css" href="infopage_style.css">
+<script src="infopage_script.js"></script>
+</head>
+<body background="background.png">
+<img src="newlogo.png" class="logo">
+<nav>
+<ul class="links">
+  <li><a href="HomePage.html">Home</a></li>
+  <li><a href="infopage.html">Information</a></li>
+  <li><a href="FeedbackFormPage.html">Feedback Form</a></li>
+  <li><a href="About Us.html">About Us</a></li>
+  <li><a class="active" href="LoginPage.html">Login</a></li>
+</ul>
+</nav>
+<button id="about" onclick="showHide()" >About AniTaku</button>
+<div id="box">
+<p id="para"><b>
+AniTaku is a website selling and promoting products related to a type of Japanese culture.
+AniTaku is a partnership company that teams up with big name anime studios to bring new products.
+AniTaku sells anime, DVDs, Manga, and Cosplay.
+We are located in Toronto, Ontario near Humber College. 
+We started in 2018 and want to help provide a good site for selling anime related products.   
+We hope our company is more successful and we will reach out to more studios to ensure our customers get the best exclusive anime products.
+AniTaku works directly with anime studios to get exclusive and licensed products.
+</b>
+</p>
+</div>
+
+<div class="imageholder">
+<h1 class="feat"> Featured Products</h1>
+<img onclick="nextImage()" class="slide" id="slide" name="slide">
+</div>
+
+<div id="EHh">
+		<h2 id="faq">FAQ</h1>
+	<button id="tab1" onclick="selectTab(1)">
+			How will I get my product?
+	</button>
+		<div id="tabContent1">
+		<p>You will be recieving an email with your tracking info. 
+		There will be a link to the shippers website. 
+		</p>
+		</div>
+		<button id="tab2" onclick="selectTab(2)">
+			When will I get my product?
+		</button>	
+		<div id="tabContent2">
+		<p>It may take up to 7-14 days to arrive at your shipping address.</p>
+		</div>
+		<button id="tab3" onclick="selectTab(3)">
+			Where will my product be shipped?
+		</button>
+	<div id="tabContent3">
+		<p>You will recieve it at your shipping address or at the nearest post office. 
+		It depends on the shipping carriers </p>
+	</div>
+	<a class="active" href="SuccessfulLogin.html">Successful Login Page</a>
+    <a class="active" href="FeedbackThankYou.html">Feedback Thank You Page</a>
+</div>
+</body>
+</html>

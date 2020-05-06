@@ -1,0 +1,137 @@
+#para{
+	color: white;
+	text-align: left;
+	position: relative;
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 20px 20px 20px 20px;
+	top: -10px;
+}
+#box{
+	position: absolute;
+	width: 300px;
+	height:400px;
+	left: 400px;
+	top: 150px;
+	background-color: #8B0000;
+	border-radius: 30px
+}
+.slide{
+	position:absolute;
+	float:right;
+	right: 50px;
+	top: 200px;
+	width: 40%;
+	height: auto;
+}
+
+.logo{
+	position: top-left;
+}
+
+	
+.links{
+	list-style-type: none;
+    overflow: hidden;
+    position:relative;
+}
+ul{
+    overflow: hidden;
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+li{
+    float: right;
+	list-style: none;
+}
+
+li a {
+    display: inline;
+    color: rgba(255, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+	font-family:sans-serif;
+	line-height: 80px;
+	color: #151515;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+	color: #151515;
+	outline: none;
+}
+
+li a.active{
+	background: #E2472F;
+	color: white;
+	border-radius: 0px;
+}
+	
+
+.about{
+	border-radius: 8px;
+	background-color: red;
+	color: white;
+	font-family: sans-serif;
+	right: 400px;
+}
+
+h1{
+	position:absolute;
+	float:right;
+	right: 50px;
+	top: 130px;
+	width: 40%;
+	height: auto;
+	font-family:sans-serif;
+	color:rgba(255, 0, 0, 1);
+	font-size: 35px;
+}
+body, background {
+    background-image: url("background.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+body, html {
+    height: 100%;
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+#EHh{
+	position:absolute;
+	float:right;
+	right: 50px;
+	top: 400px;
+	width: 40%;
+	height: auto;
+	background-color: red;
+}
+#faq{
+	position: relative;
+	font-family:sans-serif;
+	color:blue;
+	font-size: 35px;
+}
+#tab1{	
+	position: relative;
+	background-color: red;
+	color: white;
+}
+#tab2{	
+	position: relative;
+	background-color: red;
+	color: white;
+}
+#tab3{	
+	position: relative;
+	background-color: red;
+	color: white;
+}

@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding:80px 80px;
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Quicksand;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+
+nav.black {
+	background: rgba(0,0,0,0,8);
+	height: 100px;
+	padding: 10px 100px;
+}
+
+nav .AniTaku {
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 24px;
+	transition: .3s;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	line-height: 80px;
+	color: #151515;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+	
+}
+
+nav.black ul li a {
+	color: #fff;
+}
+
+nav ul li a:focus {
+	outline: none;
+}
+
+nav ul li a.active {
+	background: #E2472F;
+	color: #fff;
+	border-radius: 0px;
+}
+
+/* The alert message box */
+.message {
+    padding: 80px 80px;
+    background-color: lightgreen; /* Lightgreen */
+    color: white;
+    margin-bottom: 15px;
+	font-size:40px;
+	font-family: Quicksand;
+	border-radius: 30px;
+	box-sizing: border-box;
+	position: center;
+	text-align: center;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+p{
+	border:  0;
+	outline: 0;
+	height: 40px;
+	background: white;
+	color: black;
+	font-size:25px;
+	font-family: Quicksand;
+	border-radius: 50px;
+	box-sizing: border-box;
+	padding: 50px 80px;
+	position: center;
+	text-align: center;
+}
+
+.logo{
+	position:bottom;
+	padding: 20px 20px;
+	background:transparent;
+	border-radius: 50px;
+}

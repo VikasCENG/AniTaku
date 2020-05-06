@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Feedback Form</title>
+ <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js">
+ </script>
+ <script src="feedbackvalidation.js"> </script> 
+ <link href="http://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+<link rel="stylesheet" href="feedbackstyle.css">
+</head>
+
+<body>	
+<img src="newlogo.png" class="logo">
+<nav>
+<ul>
+<li><a class="" href="HomePage.html">Home</a></li>
+<li><a href="infopage.html">Information</a></li>
+<li><a href="FeedbackFormPage.html">Feedback Form</a></li>
+<li><a href="About Us.html">About Us</a></li>
+<li><a class="active" href="LoginPage.html">Login</a></li>
+</ul>
+</nav>
+  <div class="container">
+  <h2>Feedback Form</h2>
+  <form action="FeedbackThankYou.html" name="Feedback form">
+
+    <label for="firstname">First Name</label>
+    <input type="text" name="firstname" id="firstname" placeholder="e.g. John"/>
+	<label class="error" for="firstname" id="fname_error">This field is required.</label>
+	<label class="error" for="firstname" id="fname_error2">No numbers allowed in name.</label>
+   
+	<p><label for="lastname">Last Name</label></p>
+    <input type="text" name="lastname" id="lastname" placeholder="e.g. Smith"/>
+	<label class="error" for="lastname" id="lname_error">This field is required.</label>
+	<label class="error" for="lastname" id="lname_error2">No numbers allowed in name.</label>
+    
+	<p><label for="email">Email</label></p>
+    <input type="email" name="email" id="email" placeholder="e.g. john@smith.com"/>
+	<label class="error" for="email" id="email_error">This field is required.</label>
+  
+  <p><input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br></p>
+	<p>	<label for="Feedback">Feedback</label></p>
+    <textarea id="subject" name="subject" placeholder="Write your feedback here" style="height:200px"></textarea>
+    <button type="submit" class="button">Submit</button>
+
+  </form>
+</div>
+    <a class="active" href="SuccessfulLogin.html">Successful Login Page</a>
+    <a class="active" href="FeedbackThankYou.html">Feedback Thank You Page</a>
+</body>
+</html>

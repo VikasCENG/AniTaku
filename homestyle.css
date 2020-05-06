@@ -1,0 +1,199 @@
+body {
+	margin: 0;
+	padding: 165px 0px;
+	height: 350px;
+	font-family: Quicksand;
+}
+
+.banner marquee{
+	margin: 0px;
+	padding:30px 200px;
+	position: left;
+	height: 0px;
+	color: #0099ff;
+	background-color: white;
+	text-align: center;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.color figcaption{
+	color: red;
+}
+
+.color2 figcaption{
+	color:red;
+}
+
+.color3 figcaption{
+	color:red;
+}
+
+.special figcaption{
+	color: #0099ff;
+}
+.header{
+	font-size: 25px;
+}
+
+.ANIME{
+	font-size: 22px
+}
+
+.MANGA{
+	font-size: 22px;
+}
+
+.COSPLAY{
+	font-size: 22px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+
+nav.black {
+	background: rgba(0,0,0,0,8);
+	height: 100px;
+	padding: 10px 100px;
+}
+
+nav .AniTaku {
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 24px;
+	transition: .3s;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	line-height: 80px;
+	color: #151515;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+	
+}
+
+nav.black ul li a {
+	color: #fff;
+}
+
+nav ul li a:focus {
+	outline: none;
+}
+
+nav ul li a.active {
+	background: #E2472F;
+	color: #fff;
+	border-radius: 0px;
+}
+
+.features{
+	padding: 10px 10px;
+}
+
+.soldout p{
+	color: red;
+	padding: 0px 500px;
+	position: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.soldout2 p{
+	color: red;
+	padding: 0px 530px;
+	position: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.soldout3 p{
+	color: red;
+	padding: 0px 580px;
+	position: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.soldout4 p{
+	color: red;
+	padding: 0px 480px;
+	position: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.List{
+	font-size: 20px;
+}
+
+.details{
+	font-size: 18px;
+}
+
+.content{
+	padding: 10px 10px;
+	text-align: center;
+	box-sizing: border-box;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	height: 350px;
+}
+
+.active{
+	box-sizing: border-box;
+	background: lightgreen;
+}
+
+.footer{
+	width: 100%;
+	height: 70px;
+	background: #000;
+	text-align: center;
+	
+}
+
+.footer P{
+	color: #fff;
+	padding: 16px;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	

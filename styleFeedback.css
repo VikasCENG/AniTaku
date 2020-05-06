@@ -1,0 +1,75 @@
+body {
+	background-image: url(FeedbackBack.jpg);
+	margin: 0;
+	padding: 165px 0px;
+	height: 350px;
+	font-family: Quicksand;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .3s;
+	font-family: Quicksand;
+}
+
+nav.black {
+	background: rgba(0,0,0,0,8);
+	height: 100px;
+	padding: 10px 100px;
+	font-family: Quicksand;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-family: Quicksand;
+}
+
+nav ul li {
+	list-style: none;
+	font-family: Quicksand;
+}
+
+nav ul li a {
+	line-height: 80px;
+	color: #151515;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+	font-family: Quicksand;
+	
+}
+
+nav.black ul li a {
+	color: black;
+	font-family: Quicksand;
+}
+
+nav ul li a:focus {
+	outline: none;
+	font-family: Quicksand;
+}
+
+nav ul li a.active {
+	background: #E2472F;
+	color: #fff;
+	border-radius: 0px;
+	font-family: Quicksand;
+}
+
+
+p	{
+	color: orange;
+	text-align: center;
+	font-size: 3em;
+}

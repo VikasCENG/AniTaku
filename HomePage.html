@@ -1,0 +1,226 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>AniTaku</title>
+<script language="javascript" type="text/javascript">
+var time = 0;
+var images = new Array("fate.jpg",
+			"IrregularHighschool.jpg",
+			"Shiki.jpg"); 		
+var count = 0;
+function startTime()
+{
+if(time)
+{
+	time = 0;
+}
+var tDate = new Date();
+	
+if(count == images.length)
+{
+	count = 0;
+}
+if(tDate.getSeconds() % 5 == 0)
+{
+	document.getElementById("img1").src = images[count];
+}
+count++;
+time= setTimeout("startTime()", 1000);
+}
+</script>
+</head>
+<body onload="startTime();">
+<img id="img1" src="fate.jpg" height="100%" width="100%"/>
+<link rel="stylesheet" type="text/css" href="homestyle.css">
+<link href="http://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-3.2.1.js">
+</script>
+<script type="text/javascript">
+$(window).on('scroll', function() {
+	if($(window).scrollTop()) {
+	$('nav').addClass('black');
+	}
+	else {
+	$('nav').removeClass('black');
+	}
+	})
+</script>
+</head>
+<body>
+<nav>
+<div class="logo">
+<img src="newlogo.png" class="logo">
+</div>
+<ul>
+<li><a href="HomePage.html">Home</a></li>
+<li><a href="infopage.html">Information</a></li>
+<li><a href="FeedbackFormPage.html">Feedback Form</a></li>
+<li><a href="About Us.html">About Us</a></li>
+<li><a class="active" href="LoginPage.html">Login</a></li>
+</ul>
+</nav>
+<section class="features">
+
+<div class="banner" align="center">
+<marquee 
+ 
+     direction="left"
+     loop="7"
+     scrollamount="1"
+     scrolldelay="2"
+     behavior="alternate"
+     width="60%"
+     bgcolor="red"
+     
+     >
+ Fate Stay Night Movie 1: Presage Flower COMING SOON ON BLU - RAY!  The Irregular at Magic High School The Movie: The Girl who calls the Stars Available NOW on BLU - RAY!   Garden of Sinners BLU-RAY DISC BOX STANDARD EDITION 50% OFF!"----! 
+</marquee>
+</div>
+<div class="header">
+<p>TODAY'S SPECIAL OFFERS</p>
+</div>
+<img id = "Special1" src="KaraNoKyoukai.jpg" height="auto" width="20%"/>
+<br>
+<img id = "Special2" src="GardenofSinnersBluRay.jpg" height="auto" width="20%"/>
+<div class="color">
+<div class="special">
+<figcaption> The Garden of sinners Blu-ray Disc Box Standard Edition<br>
+<p>Price: 50% off</p></figcaption>
+<div class="cart">
+<form>
+
+  <input type="hidden" name="anitaku" value="user@fulluser.com">
+
+  <!-- Create a shopping cart "add to cart" button. -->
+  <input type="hidden" name="cart" value="_cart">
+  <input type="hidden" name="cart" value="1">
+  
+  <!-- Display the button. -->
+  <input type="image" name="submit"
+    src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+    alt="Add to Cart">
+  <img alt="" width="1" height="1">
+</form>
+</div>
+<img id="Special3" src="series.png" height="auto" width="20%"/>
+<figcaption> The Garden of sinners -recalled out summer- Limited Edition Blu-ray Set<br>
+<p>Price: 40% off</p></figcaption>
+</div>
+<div class="cart">
+<form>
+
+  <input type="hidden" name="anitaku" value="user@fulluser.com">
+
+  <!-- Create a add to cart button. -->
+  <input type="hidden" name="cart" value="_cart">
+  <input type="hidden" name="cart" value="1">
+  
+  <!-- Display the payment button. -->
+  <input type="image" name="submit"
+    src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+    alt="Add to Cart">
+  <img alt="" width="1" height="1">
+</form>
+</div>
+<br>
+<br>
+<div class="ANIME">
+<p>ANIME</p>
+</div>
+
+<img id = "Anime1" src="MagicalIndex.jpg" height="auto" width="26%"/>
+<img id = "Anime4" src="AngelBeats.jpg" height="auto" width="25%"/>
+<img id = "Anime5" src="DragonBallSuper.jpg" height="auto" width="25%"/>
+<figcaption>A Certain Magical Index Season 2 $35.45 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Angel Beats $21.99
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Dragon Ball Super Season 2 $15.99</figcaption> 
+<img id = "Anime2" src="SwordArtOnline.jpg" height="auto" width="26%"/>
+<img id = "Anime6" src="ReZero.jpg" height="auto" width="24%"/>
+<img id = "Anime7" src="OnePunchMan.jpg" height="auto" width="26%"/>
+
+<figcaption>Sword Art Online Season 1 $25.99 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ReZero Season 1 $26.99
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;One Punch Man Season 1 17.99$</figcaption>
+<img id = "Anime3" src="AttackOnTitan.jpg" height="auto" width="26%"/>
+<img id = "Anime8" src="Hero.jpeg" height="auto" width="28%"/>
+<img id = "Anime9" src="Steinsgate.jpg" height="auto" width="23%"/>
+<figcaption>Attack On Titan Season 2 $24.99 &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp; &emsp;  &emsp; &emsp;   &emsp; &nbsp; &nbsp;My Hero Academia Season 2 $27.99
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Steins;Gate $30.99</figcaption>
+<div class="soldout2">
+<p>ReZero Season 1: Sold out!</p>
+</div>
+<div class="soldout4">
+<p>My Hero Academia Season 2: Sold out!</p>
+</div>
+</div>
+<br> 
+<br>    
+<br> 
+<div class="MANGA">
+<p>MANGA</p>
+</div>
+<div class="color2">
+<img id = "Manga1" src="OnePieceVolume88.png" height="auto" width="15%"/>
+<img id = "Manga2" src="FoodWars.jpg" height="auto" width="15%"/>
+<img id = "Manga3" src="SevenWitches.jpg" height="auto" width="16%"/>
+<img id = "Manga4" src="SevenDeadlySins.png" height="auto" width="16%"/>
+<img id = "Manga5" src="UqHolder.jpg" height="auto" width="16%"/>
+<img id = "Manga6" src="HunterxHunter.jpg" height="auto" width="15%"/>
+<figcaption>One Piece Vol 88 $11.99&emsp; &emsp; &nbsp;Food Wars Vol 27 $14.99 &emsp; &emsp;Seven Witches Vol 28 $13.99 
+&nbsp; &nbsp;Seven Deadly Sins Vol 29 $13.45 UQ Holder Vol 15 $12.45 &emsp;Hunter x Hunter Vol 35 $16.00</figcaption>
+</div>
+<div class="soldout">
+<p>Hunter x Hunter Vol 35: Sold out!</p>
+</div>
+<br>
+<br>
+<br> 
+<div class="COSPLAY">
+<p>COSPLAY</p>
+</div>
+<div class="color3">
+<img id = "Cosplay1" src="KaedeCosplay.jpg" height="auto" width="15%"/>
+<img id = "Cosplay2" src="ArcherEmiya.jpg" height="auto" width="12%"/>
+<img id = "Cosplay3" src="FemaleNaruto.jpg" height="auto" width="15%"/>
+<img id = "Cosplay4" src="DeathGun.jpg" height="auto" width="16%"/>
+<img id = "Cosplay5" src="RemCosplay.jpg" height="auto" width="13%"/>s
+<img id = "Cosplay6" src="JokerCosplay.jpg" height="auto" width="13%"/>
+<img id = "Cosplay7" src="TokisakiKirumi.jpg" height="auto" width="10%"/>
+<figcaption>Kaede Akamatsu $69.99 &emsp; &emsp; &emsp; Archer $59.99 &emsp; &emsp; &emsp; &emsp; &emsp; Female Naruto $64.75&emsp; &emsp; Death Gun $129.99 
+&emsp; &emsp; &emsp; &emsp; &emsp;Rem $59.69 &emsp; &emsp; &emsp; &emsp; Joker $79.99 &emsp;Kirumi Tokisaki $64.65</figcaption> 
+</div>
+</div>
+<div class="soldout3">
+<p>Rem: Sold out!</p>
+</div>
+<br>     
+</section>
+<section class="content">
+<div class="List">
+<p>CONTENTS</p> 
+</div>
+<div class="details">
+<p>Information:</p>
+<p>Details about OUR offers and the company's BEST selling products.</p>
+<p>About Us:</p>
+<p>Brief bio on each employee involved with the company.</p>
+<p>Feedback Form:</p>
+<p>We want to hear YOUR feedback about the services offered at AniTaku!</p>
+<p>Login:</p>
+<p>Keep track of our daily OFFERS and see what's on SALE.</p>
+</div>
+</section>
+
+<div class="link1">
+<a class="active" href="SuccessfulLogin.html">Successful Login Page</a>
+</div>
+<div class="link2">
+<a class="active" href="FeedbackThankYou.html">Feedback Thank You Page</a>
+</div>
+<div class="footer">
+<p>Copyright &copy; 2018 AniTaku Vikas Sharma N01160135 Brian Phan N01095613 George Alexandris N01163751 Tristan Reinhardt N01164200 Alexander Vinh Quang Ngo N01096627 </p>
+</div>
+</body>
+</html>
+
+
+	
+	
